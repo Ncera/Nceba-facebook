@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
+.images{
+    display: flex;
+}
+
+.pics{
+    width: 130px;
+    height: 130px;
+    margin-left: 5px;
+}
+
+.tags{
+    display: flex;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+}
+
+.tag{
+    display: flex;
+}
+
+button{
+    width: 225px;
+    height: 20px;
+    border: 2px solid red;
+    border-radius: 14px;
+}
+
+.activities{
+    width: 20px;
+    height: 20px;
+}
+
+.Ozeri{
+    display: flex;
+}
+
+.eggPlant{
+    width: 673px;
+    height: 186px;
+}

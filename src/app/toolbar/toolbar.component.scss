@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    align-items: center;
+    
+}
+
+.bar{
+    display: flex;
+}
+
+.image{
+    width: 45px;
+    height: 45px;
+    margin-bottom: 120px;
+}
+
+.inputs{
+    width: 235px;
+    height: 26px;
+    border-radius: 15px;
+    background-color: beige;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: -168px;
+}
+
+.black{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 35px;
+    margin-bottom: 120px;
+}
+
+.second-icons{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -150px;
+    color: beige;
+}
+
+.blue{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 220px;
+    
+}
+
+.josephine{
+    display: flex;
+}

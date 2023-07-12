@@ -1,0 +1,41 @@
+.container{
+    height: 100vh;
+    background-color: black;
+}
+
+.tool{
+    background-color: #333333;
+    height: 10%;
+}
+
+.inside-container{
+    height: 100%;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    height: 90%;
+    background-color: aquamarine;
+}
+
+.left{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background-color: pink;
+}
+
+.middle{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background-color: brown;
+}
+
+.right{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background-color: rgb(187, 0, 255);
+}
