@@ -5,7 +5,7 @@
 
 .tool{
     background-color: #333333;
-    height: 10%;
+    height: 8%;
 }
 
 .inside-container{
@@ -16,26 +16,26 @@
     display: flex;
     justify-content: space-between;
     height: 90%;
-    background-color: aquamarine;
+    background-color: black;
 }
 
 .left{
     display: flex;
     height: 100%;
     width: 20%;
-    background-color: pink;
+    background-color: black;
 }
 
 .middle{
     display: flex;
     height: 100%;
     width: 50%;
-    background-color: brown;
+    background-color: black;
 }
 
 .right{
     display: flex;
     height: 100%;
     width: 20%;
-    background-color: rgb(187, 0, 255);
+    background-color: black;
 }

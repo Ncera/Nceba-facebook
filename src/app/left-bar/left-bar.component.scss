@@ -5,15 +5,53 @@
 
 body{
     margin: 0;
-    background-color: aquamarine;
+    color: beige;
 }
 
 .left-bar{
     width: 35px;
     height: 35px;
     border: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.eats{
+    margin-top: 5px;
 }
 
 .short-cut{
     display: flex;
+    color: beige;
+    margin-left: 10px;
 }
+
+.short-cut p{
+    margin-left: 238px;
+}
+
+.williams label{
+    border-radius: 50px;
+}
+
+.labels{
+    color: beige;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+hr{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.see-more button{
+    margin-top: 5px;
+    width: 320px;
+    border-radius: 12px;
+    background-color: gray;
+    margin-left: 10px;
+}
+

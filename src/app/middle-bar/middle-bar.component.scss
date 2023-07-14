@@ -18,32 +18,50 @@ body{
 }
 
 .tags{
+    height: 15vh;
     display: flex;
     border: 2px solid whitesmoke;
     border-radius: 4px;
+    margin-top: 10px;
 }
 
 .tag{
     display: flex;
+    justify-content: space-between;
+    color: beige;
 }
 
 button{
-    width: 225px;
-    height: 20px;
-    border: 2px solid red;
+    width: 550px;
+    height: 40px;
+    margin-left: 10px;
+    border: 2px solid;
     border-radius: 14px;
 }
 
 .activities{
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
 }
 
 .Ozeri{
     display: flex;
+    color: beige;
 }
 
 .eggPlant{
     width: 673px;
     height: 186px;
+}
+
+.food{
+    border: 2px solid green;
+    margin-top: 10px;
+}
+
+.clients{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
 }

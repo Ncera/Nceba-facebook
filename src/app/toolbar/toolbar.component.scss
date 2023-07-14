@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+body{
+    margin: 0;
+}
 
 .container{
     align-items: center;
@@ -14,28 +17,30 @@
 }
 
 .image{
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
     margin-bottom: 120px;
 }
 
 .inputs{
     width: 235px;
-    height: 26px;
-    border-radius: 15px;
+    height: 35px;
+    border-radius: 20px;
     background-color: beige;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 .icons{
     display: flex;
     justify-content: center;
-    margin-top: -168px;
+    margin-top: -174px;
 }
 
 .black{
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
+    width: 50px;
+    height: 50px;
     margin-left: 35px;
     margin-bottom: 120px;
 }
@@ -43,17 +48,24 @@
 .second-icons{
     display: flex;
     justify-content: flex-end;
-    margin-top: -150px;
+    margin-top: -175px;
     color: beige;
 }
 
 .blue{
     width: 50px;
     height: 50px;
+    border-radius: 60px;
     margin-bottom: 220px;
+    margin-left: 8px;
     
 }
 
 .josephine{
     display: flex;
+}
+
+.josephine label{
+    margin-top: 12px;
+    margin-left: 4px;
 }
