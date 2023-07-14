@@ -7,8 +7,13 @@ body{
     margin: 0;
 }
 
+.main-container{
+    margin-left: 10px;
+}
+
 .images{
     display: flex;
+    margin-top: 20px;
 }
 
 .pics{
@@ -18,25 +23,56 @@ body{
 }
 
 .tags{
-    height: 15vh;
+    height: 16vh;
     display: flex;
-    border: 2px solid whitesmoke;
-    border-radius: 4px;
+    border-radius: 10px;
     margin-top: 10px;
+    background-color: #1f1e1e;
 }
 
 .tag{
     display: flex;
+    margin-top: 10px;
+    margin-left: 15px;
     justify-content: space-between;
     color: beige;
+}
+
+.tag label{
+    margin-left: 10px;
+    margin-top: 8px;
+    color: beige;
+}
+
+.clients{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+.jose{
+    display: flex;
+    margin-top: 10px;
 }
 
 button{
     width: 550px;
     height: 40px;
     margin-left: 10px;
-    border: 2px solid;
-    border-radius: 14px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: gray;
+    color: rgb(217, 202, 202);
+}
+
+.bar hr{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.assets{
+    display: flex;
 }
 
 .activities{
@@ -47,21 +83,46 @@ button{
 
 .Ozeri{
     display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: beige;
+}
+
+.fiona{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.white{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    margin-top: -20px;
+}
+
+.hours{
+    margin-left: 15px;
+}
+
+.dots{
+    margin-left: 480px;
+}
+
+h5{
+    margin-left: 20px;
     color: beige;
 }
 
 .eggPlant{
-    width: 673px;
-    height: 186px;
+    margin-top: 10px;
+    width: 675px;
+    height: 205px;
 }
 
 .food{
-    border: 2px solid green;
-    margin-top: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgb(68, 62, 62);
 }
 
-.clients{
-    width: 35px;
-    height: 35px;
-    border-radius: 50px;
-}
