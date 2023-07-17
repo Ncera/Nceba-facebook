@@ -23,15 +23,30 @@ body{
     margin-bottom: 120px;
 }
 
-
+.search{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin-right: 198px;
+    margin-top: 5px;
+    background-color: gray;
+}
 
 .inputs{
     width: 235px;
     height: 35px;
     border-radius: 20px;
-    background-color: beige;
-    margin-top: 5px;
-    margin-left: 5px;
+    border: none;
+    background-color: rgb(68, 65, 65);
+    color: rgb(191, 184, 184);
+    margin-top: 10px;
+    text-align: rights;
+}
+
+.inputs p{
+    margin-top: -20px;
+    margin-right: 65px;
+    color: rgb(191, 184, 184);
 }
 
 .icons{
@@ -42,6 +57,13 @@ body{
 
 .black{
     width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    margin-bottom: 120px;
+}
+
+.black-h{
+    width: 80px;
     height: 50px;
     margin-left: 35px;
     margin-bottom: 120px;
